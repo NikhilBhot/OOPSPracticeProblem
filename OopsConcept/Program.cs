@@ -53,6 +53,11 @@
             Console.WriteLine("_____________________________");
             Console.WriteLine("Encapsulation Example");
             EncapusulationDemo.EncapsulationDemoMethod();
+
+
+            Console.WriteLine("_____________________________");
+            Console.WriteLine("Abstraction Example");
+            AbstractionDemo.AbstractionMethod();
         }
     }
 }
