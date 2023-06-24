@@ -1,22 +1,22 @@
 ﻿namespace OopsConcept
 {
-    //1) Create a program with object and class concept with example.
-    class Car
+    class Vehicle
     {
-        // Class properties
         public string Brand { get; set; }
-        public string Model { get; set; }
         public int Year { get; set; }
 
-        // Class constructor
-        public Car(string brand, string model, int year)
+        public void Honk()
         {
-            Brand = brand;
-            Model = model;
-            Year = year;
+            Console.WriteLine("Honk honk!");
         }
+    }
+    //1) Create a program with object and class concept with example.
+    //Create a program with Inheritance concept with example.
+    class Car : Vehicle
 
-        // Class method
+    {
+        public string Model { get; set; }
+
         public void StartEngine()
         {
             Console.WriteLine("Engine started. Vroom!");
@@ -28,14 +28,22 @@
         static void Main(string[] args)
         {
             // Create an object of the Car class
-            Car myCar = new Car("Ford", "Mustang", 2022);
+            Car myCar = new Car();
+            myCar.Brand = "Ford";
+            myCar.Model = "Mustang";
+            myCar.Year = 2022;
 
-            // Accessing object properties
+            // Accessing inherited property
             Console.WriteLine($"Brand: {myCar.Brand}");
-            Console.WriteLine($"Model: {myCar.Model}");
             Console.WriteLine($"Year: {myCar.Year}");
 
-            // Call object method
+            // Accessing derived class property
+            Console.WriteLine($"Model: {myCar.Model}");
+
+            // Call inherited method
+            myCar.Honk();
+
+            // Call derived class method
             myCar.StartEngine();
         }
     }
