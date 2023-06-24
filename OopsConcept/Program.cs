@@ -45,6 +45,10 @@
 
             // Call derived class method
             myCar.StartEngine();
+
+            Console.WriteLine("_____________________________");
+            Console.WriteLine("Polymorphisum Example");
+            DemoPolymorphisum.Polymorphism();
         }
     }
 }
