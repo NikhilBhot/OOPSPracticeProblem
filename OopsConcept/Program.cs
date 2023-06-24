@@ -49,6 +49,10 @@
             Console.WriteLine("_____________________________");
             Console.WriteLine("Polymorphisum Example");
             DemoPolymorphisum.Polymorphism();
+
+            Console.WriteLine("_____________________________");
+            Console.WriteLine("Encapsulation Example");
+            EncapusulationDemo.EncapsulationDemoMethod();
         }
     }
 }
