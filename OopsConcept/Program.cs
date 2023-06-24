@@ -58,6 +58,10 @@
             Console.WriteLine("_____________________________");
             Console.WriteLine("Abstraction Example");
             AbstractionDemo.AbstractionMethod();
+
+            Console.WriteLine("_____________________________");
+            Console.WriteLine("Data Type Example");
+            DataType.DataTypeMethod();
         }
     }
 }
