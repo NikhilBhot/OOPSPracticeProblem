@@ -66,6 +66,10 @@
             Console.WriteLine("_____________________________");
             Console.WriteLine("Type OF Method Example");
             TypeOfMethods.TypeOfMehodDemo();
+
+            Console.WriteLine("______________________________");
+            Console.WriteLine("Reference And Value Type Example");
+            ValueAndReferenceType.ValueAndReferenceTypeMetthod();
         }
     }
 }
