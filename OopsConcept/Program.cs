@@ -62,6 +62,10 @@
             Console.WriteLine("_____________________________");
             Console.WriteLine("Data Type Example");
             DataType.DataTypeMethod();
+
+            Console.WriteLine("_____________________________");
+            Console.WriteLine("Type OF Method Example");
+            TypeOfMethods.TypeOfMehodDemo();
         }
     }
 }
