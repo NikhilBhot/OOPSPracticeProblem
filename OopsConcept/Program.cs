@@ -70,6 +70,10 @@
             Console.WriteLine("______________________________");
             Console.WriteLine("Reference And Value Type Example");
             ValueAndReferenceType.ValueAndReferenceTypeMetthod();
+
+            Console.WriteLine("__________________________________");
+            Console.WriteLine("Types Of Inheritancem Example");
+            TypesOfInheritance.InheritanceClassMethod();
         }
     }
 }
